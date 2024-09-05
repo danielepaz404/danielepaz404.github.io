@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "deploy": "ng deploy --build-target=danielepaz404.github.io:build:production --repo=https://github.com/danielepaz404/danielepaz404.github.io.git --branch=gh-pages",
     "serve:ssr:danielepaz404.github.io": "node dist/danielepaz404.github.io/server/server.mjs"
   },
   "private": true,
@@ -21,6 +22,7 @@
     "@angular/platform-server": "^18.2.0",
     "@angular/router": "^18.2.0",
     "@angular/ssr": "^18.2.3",
+    "angular-cli-ghpages": "^2.0.1",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
