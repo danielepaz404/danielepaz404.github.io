@@ -1,0 +1,11 @@
+:host {
+    grid-area: projects;
+}
+
+:host ::ng-deep h2, :host ::ng-deep h3 {
+    margin: 0;
+}
+
+:host ::ng-deep h2 {
+    color: #202C22;
+}

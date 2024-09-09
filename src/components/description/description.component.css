@@ -1,0 +1,15 @@
+:host {
+    grid-area: description;
+}
+
+:host app-content-container {
+    background-color: #AE9771;
+}
+
+:host ::ng-deep h2, :host ::ng-deep h3 {
+    margin: 0;
+}
+
+:host ::ng-deep h2 {
+    color: #2A322D;
+}
