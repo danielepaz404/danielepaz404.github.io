@@ -42,6 +42,8 @@ header {
     background-color: #7FC8F8;
     padding: 8px 72px;
     border: 2px solid black;
+    position: sticky;
+    top: 0;
 }
 
 #profile-links {
