@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 24px;
+}
+header li {
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #7FC8F8;
+    padding: 8px 72px;
+    border: 2px solid black;
+}
+
+#profile-links {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 16px;
+}
+
+#profile-links a {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    box-shadow: 5px 5px 0 2px black;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#profile-links a img {
+    width: auto;
+    height: 100%;
+}
+
+#intro {
+    display: grid;
+    padding: 0 72px;
+    border: 2px solid black;
+    grid-template-columns: 50% auto;
+    grid-gap: 72px;
+    align-items: center;
+}
+
+#intro p {
+    margin-top: 32px;
+}
+
+#profile {
+    background-color: #FF6392;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 32px;
+    padding: 72px;
+    justify-items: center;
+    border: solid black;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+}
+
+#profile > img {
+    width: 248px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px black, 0 0 0 10px #82DBB3, 0 0 0 14px black;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+}
+
+#cases {
+    background: #FFE45E;
+    border: 2px solid black;
+    padding: 72px;
+}
+
+#cases > div {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 50% auto;
+    grid-gap: 32px;
+}
+
+#cases div > div{
+    height: 392px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 8px 8px 0 0 black;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+footer {
+    text-align: center;
+    padding: 8px;
+    background-color: #5AA9E6;
+    border: 2px solid black;
+}
+
+p {
+    margin: 0;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
